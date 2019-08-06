@@ -1,0 +1,18 @@
+<html>
+<body>
+<pre>
+<h1>礦ision3 Build Log</h1>
+<h2>Project:</h2>
+K:\ZHA\展恒安\展恒安资料大全\2.8\4比3\Z280IT010(IVO2.8+ILI9341) 4线串口 18P\9341_IVO2.84-LINE串口(OK BALL)\7735 serial.uv2
+Project File Date:  07/01/2015
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling 7735 serial.c...
+7735 SERIAL.C(220): warning C280: 'k': unreferenced local variable
+linking...
+*** WARNING L16: UNCALLED SEGMENT, IGNORED FOR OVERLAY PROCESS
+    SEGMENT: ?PR?FRAME?7735_SERIAL
+Program Size: data=23.0 xdata=0 code=42472
+creating hex file from "ILI9341"...
+"ILI9341" - 0 Error(s), 2 Warning(s).

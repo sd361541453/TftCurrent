@@ -1,0 +1,258 @@
+###############################################################################
+#
+# IAR ELF Linker V8.30.1.114/W32 for ARM                  11/Apr/2019  18:37:08
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\blinky_pca10040e_mbr.out
+#    Map file     =  
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\blinky_pca10040e_mbr.map
+#    Command line =  
+#        -f C:\Users\Jason\AppData\Local\Temp\EW8D03.tmp
+#        (D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\app_error.o
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\app_error_handler_iar.o
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\app_error_weak.o
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\app_util_platform.o
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\boards.o
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\iar_startup_nrf52810.o
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\main.o
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\nrf_assert.o
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\nrf_atomic.o
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\nrf_balloc.o
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\nrf_fprintf.o
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\nrf_fprintf_format.o
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\nrf_log_frontend.o
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\nrf_log_str_formatter.o
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\nrf_memobj.o
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\nrf_ringbuf.o
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\nrf_strerror.o
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\system_nrf52810.o
+#        --redirect _Printf=_PrintfFull --redirect _Scanf=_ScanfFull
+#        --no_out_extension -o
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\blinky_pca10040e_mbr.out
+#        --map
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build\blinky_pca10040e_mbr.map
+#        --config
+#        D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\blinky_iar_nRF5x.icf
+#        --warnings_are_errors --entry __iar_program_start --inline --vfe
+#        --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x1000 { ro section .intvec };
+define block RO_END with size = 0M, alignment = 8 { };
+"P1":  place in [from 0x1000 to 0x2'ffff] { ro, block RO_END };
+define block CSTACK with size = 2K, alignment = 8 { };
+define block HEAP with size = 2K, alignment = 8 { };
+"P2":  place in [from 0x2000'0008 to 0x2000'5fff] {
+          rw, block CSTACK, block HEAP };
+initialize by copy { rw };
+keep { section .intvec };
+
+  Section            Kind         Address   Size  Object
+  -------            ----         -------   ----  ------
+"A0":                                      0x200
+  .intvec            ro code       0x1000  0x200  iar_startup_nrf52810.o [1]
+                                 - 0x1200  0x200
+
+"P1":                                      0x298
+  .text              ro code       0x1200   0xbc  boards.o [1]
+  .text              ro code       0x12bc   0xa0  system_nrf52810.o [1]
+  .text              ro code       0x135c   0x34  main.o [1]
+  .text              ro code       0x1390   0x2c  copy_init3.o [3]
+  .text              ro code       0x13bc   0x28  data_init.o [3]
+  .iar.init_table    const         0x13e4   0x14  - Linker created -
+  .text              ro code       0x13f8   0x1e  cmain.o [3]
+  .text              ro code       0x1416    0x4  exit.o [2]
+  .text              ro code       0x141a    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x141c    0xa  cexit.o [3]
+  .text              ro code       0x1426    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1428    0xc  XXexit.o [3]
+  .text              ro code       0x1434   0x10  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1444    0xc  cstartup_M.o [3]
+  Initializer bytes  const         0x1450    0x4  <for P2-1>
+  .text              ro code       0x1454    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1456    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1458    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x145a    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x145c    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x145e    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1460    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1462    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1464    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1466    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1468    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x146a    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x146c    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x146e    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1470    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1472    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1474    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1476    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1478    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x147a    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x147c    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x147e    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1480    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1482    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1484    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1486    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1488    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x148a    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x148c    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x148e    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1490    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1492    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1494    0x2  iar_startup_nrf52810.o [1]
+  .text              ro code       0x1496    0x2  iar_startup_nrf52810.o [1]
+  .rodata            const         0x1498    0x0  copy_init3.o [3]
+                                 - 0x1498  0x298
+
+"P2", part 1 of 2:                           0x4
+  P2-1                        0x2000'0008    0x4  <Init block>
+    .data            inited   0x2000'0008    0x4  system_nrf52810.o [1]
+                            - 0x2000'000c    0x4
+
+"P2", part 2 of 2:                         0x800
+  CSTACK                      0x2000'0010  0x800  <Block>
+    CSTACK           uninit   0x2000'0010  0x800  <Block tail>
+                            - 0x2000'0810  0x800
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+       0x1498     0x2'ffff  0x2'eb68
+  0x2000'000c  0x2000'000f       0x4
+  0x2000'0810  0x2000'5fff    0x57f0
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Copy (__iar_copy_init3)
+    1 source range, total size 0x4:
+               0x1450   0x4
+    1 destination range, total size 0x4:
+          0x2000'0008   0x4
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  ro data  rw data
+    ------                  -------  -------  -------
+command line/config:
+    -------------------------------------------------
+    Total:
+
+D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build: [1]
+    boards.o                    188
+    iar_startup_nrf52810.o      600
+    main.o                       52
+    system_nrf52810.o           160        4        4
+    -------------------------------------------------
+    Total:                    1 000        4        4
+
+dl7M_tlf.a: [2]
+    exit.o                        4
+    -------------------------------------------------
+    Total:                        4
+
+rt7M_tl.a: [3]
+    XXexit.o                     12
+    cexit.o                      10
+    cmain.o                      30
+    copy_init3.o                 44
+    cstartup_M.o                 12
+    data_init.o                  40
+    -------------------------------------------------
+    Total:                      148
+
+    Linker created                        20    2 048
+-----------------------------------------------------
+    Grand Total:              1 152       24    2 052
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address  Size  Type      Object
+-----                       -------  ----  ----      ------
+.iar.init_table$$Base        0x13e4         --   Gb  - Linker created -
+.iar.init_table$$Limit       0x13f8         --   Gb  - Linker created -
+?main                        0x13f9        Code  Gb  cmain.o [3]
+CSTACK$$Base            0x2000'0010         --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'0810         --   Gb  - Linker created -
+Region$$Table$$Base          0x13e4         --   Gb  - Linker created -
+Region$$Table$$Limit         0x13f8         --   Gb  - Linker created -
+SystemCoreClock         0x2000'0008   0x4  Data  Gb  system_nrf52810.o [1]
+SystemInit                   0x12bd  0x7a  Code  Gb  system_nrf52810.o [1]
+__ICFEDIT_region_RAM_end__ {Abs}
+                        0x2000'5fff        Data  Gb  <internal module>
+__ICFEDIT_region_RAM_start__ {Abs}
+                        0x2000'0008        Data  Gb  <internal module>
+__Vectors                    0x1000         --   Gb  iar_startup_nrf52810.o [1]
+__Vectors_End                0x1200        Data  Gb  iar_startup_nrf52810.o [1]
+__Vectors_Size {Abs}          0x200         --   Gb  iar_startup_nrf52810.o [1]
+__cmain                      0x13f9        Code  Gb  cmain.o [3]
+__exit                       0x1429        Code  Gb  XXexit.o [3]
+__iar_copy_init3             0x1391  0x2c  Code  Gb  copy_init3.o [3]
+__iar_data_init3             0x13bd  0x28  Code  Gb  data_init.o [3]
+__iar_program_start          0x1445        Code  Gb  cstartup_M.o [3]
+__vector_table               0x1000        Data  Gb  iar_startup_nrf52810.o [1]
+_call_main                   0x1405        Code  Gb  cmain.o [3]
+_exit                        0x141d        Code  Gb  cexit.o [3]
+_main                        0x1413        Code  Gb  cmain.o [3]
+bsp_board_init               0x1271  0x46  Code  Gb  boards.o [1]
+bsp_board_led_invert         0x1249  0x1a  Code  Gb  boards.o [1]
+bsp_board_led_off            0x1231   0x8  Code  Gb  boards.o [1]
+bsp_board_leds_off           0x1239  0x10  Code  Gb  boards.o [1]
+exit                         0x1417   0x4  Code  Gb  exit.o [2]
+m_board_led_list             0x12b8   0x2  Data  Lc  boards.o [1]
+main                         0x135d  0x2c  Code  Gb  main.o [1]
+nrf_gpio_cfg                 0x1201  0x1e  Code  Lc  boards.o [1]
+nrf_gpio_pin_write           0x121f  0x12  Code  Lc  boards.o [1]
+nrfx_coredep_delay_us::delay_bytecode
+                             0x1388   0x8  Data  Lc  main.o [1]
+
+
+[1] = D:\Work\GiikerSuperCubeV4\SoftwareV4\nRF5_SDK_15.2.0_9412b96\examples\peripheral\blinky\pca10040e\mbr\iar\_build
+[2] = dl7M_tlf.a
+[3] = rt7M_tl.a
+
+  1 152 bytes of readonly  code memory
+     24 bytes of readonly  data memory
+  2 052 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

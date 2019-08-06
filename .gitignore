@@ -1,0 +1,9 @@
+*.lst
+*.o
+*.pbi
+*.xcl
+*.s
+*.d
+*.crf
+*.rar
+*.zip
